@@ -1,0 +1,32 @@
+{
+  "name": "xiaohai-elementui",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "author": "zhangwei320",
+  "description": "common toolkit",
+  "keywords": [
+    "utils",
+    "ui",
+    "vue",
+    "element"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaohai320/xiaohai-elementui"
+  },
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
